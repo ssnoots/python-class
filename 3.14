@@ -1,0 +1,10 @@
+import random
+print("Guess head or tail")
+guess = int(input("Enter 0 for head and 1 for tail: "))
+a = random.randint(0,1)
+if guess == a and a == 0:
+    print("correct! it is heads")
+elif guess == a and a == 1:
+    print("correcr! it is tails")
+else:
+    print("sorry guess is wrong")
