@@ -1,0 +1,7 @@
+s = str(input("enter int"))
+count = 0
+for i in range(len(s)):
+    count += 1
+    fl = s[0]
+print(count)
+print("first character:",fl)
