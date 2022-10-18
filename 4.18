@@ -1,0 +1,6 @@
+x = int(input("Enter an int"))
+if x > 127:
+    print("invalid int")
+    exit()
+y = chr(x)
+print(y)
