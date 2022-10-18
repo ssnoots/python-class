@@ -1,0 +1,10 @@
+numofstudents = int(input("number of students"))
+name = input("Enter name")
+highscore = float(input("Enter a student score"))
+for i in range(numofstudents - 1):
+    tempname = input("enter a student name")
+    tempscore = float(input("enter a student score"))
+    if tempscore > highscore:
+        name = tempname
+        highscore = tempscore
+print(name, highscore)
