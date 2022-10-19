@@ -1,0 +1,6 @@
+s = str(input("enter a string: "))
+count = 0
+for c in s:
+    if c.isupper():
+        count = count + 1
+print("The number of uppercase letters in",s,"is", count)
