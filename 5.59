@@ -1,0 +1,11 @@
+s = str(input("Enter a string: "))
+s = s.lower()
+count = 0
+count1 = 0
+for c in s:
+    if c == "a" or c == "e" or c == "i" or c == "o" or c == "u":
+        count = count + 1
+    elif c.isalpha():
+        count1 = count1 + 1
+print("the amount of v: ",count)
+print("the amount of c: ",count1)
